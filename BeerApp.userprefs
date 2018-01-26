@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F5527720-2001-436C-A6EA-7D56B4245570}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BeerAppAndroid/BeerListActivity.cs">
+    <Files>
+      <File FileName="BeerAppAndroid/BeerListActivity.cs" Line="34" Column="100" />
+      <File FileName="BeerAppAndroid/BeerActivity.cs" Line="33" Column="23" />
+      <File FileName="BeerAppAndroid/MainActivity.cs" Line="39" Column="36" />
+      <File FileName="BeerAppAndroid/BeerPagerAdapter.cs" Line="9" Column="16" />
+      <File FileName="BeersLibrary/BeersManager.cs" Line="14" Column="1" />
+      <File FileName="BeerAppAndroid/FileHelper.cs" Line="12" Column="1" />
+      <File FileName="BeersLibrary/BeerLocalDatabase.cs" Line="38" Column="13" />
+      <File FileName="BeerAppAndroid/BeerFragment.cs" Line="102" Column="17" />
+      <File FileName="BeerAppiOS/BeerViewController.cs" Line="54" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.BeerAppiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.01A27F12-AC74-4D81-BB80-D5C499AA726F" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dennis/Dropbox/School/Italent/workspace/BeerApp/BeersLibrary/BeersManager.cs" relfile="BeersLibrary/BeersManager.cs" line="72" column="14" />
+      <Breakpoint file="/Users/dennis/Dropbox/School/Italent/workspace/BeerApp/BeersLibrary/BeersManager.cs" relfile="BeersLibrary/BeersManager.cs" line="71" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BeerAppAndroid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+</Properties>

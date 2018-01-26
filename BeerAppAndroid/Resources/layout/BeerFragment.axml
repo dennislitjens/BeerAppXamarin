@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffaac9aa">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:id="@+id/beerImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beerImage"
+        android:id="@+id/titleTextView"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/buttonLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="10dp"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_below="@id/titleTextView"
+            android:id="@+id/heartButton"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="#ffffceed"
+            android:text="Like" />
+        <Button
+            android:layout_below="@id/titleTextView"
+            android:id="@+id/drinkButton"
+            android:layout_toRightOf="@id/heartButton"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="Drink"
+            android:background="#ffffceed" />
+    </LinearLayout>
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonLinearLayout"
+        android:id="@+id/descriptionTextView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        android:background="#ff6f846f"
+        android:textColor="#ffffffff" />
+</RelativeLayout>

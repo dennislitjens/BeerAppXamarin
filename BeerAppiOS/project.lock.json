@@ -1,0 +1,53 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {
+      "BeersLibrary/1.0.0": {
+        "type": "project"
+      }
+    }
+  },
+  "libraries": {
+    "BeersLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BeersLibrary/BeersLibrary.csproj",
+      "msbuildProject": "../BeersLibrary/BeersLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETPortable,Version=v4.5,Profile=Profile111": []
+  },
+  "packageFolders": {
+    "/Users/dennis/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/dennis/Projects/BeerApp/BeerAppiOS/BeerAppiOS.csproj",
+      "projectName": "BeerAppiOS",
+      "projectPath": "/Users/dennis/Projects/BeerApp/BeerAppiOS/BeerAppiOS.csproj",
+      "projectJsonPath": "/Users/dennis/Projects/BeerApp/BeerAppiOS/project.json",
+      "packagesPath": "/Users/dennis/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/dennis/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "/Users/dennis/Downloads": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {
+          "projectReferences": {
+            "/Users/dennis/Projects/BeerApp/BeersLibrary/BeersLibrary.csproj": {
+              "projectPath": "/Users/dennis/Projects/BeerApp/BeersLibrary/BeersLibrary.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wpa81": {}
+    }
+  }
+}
